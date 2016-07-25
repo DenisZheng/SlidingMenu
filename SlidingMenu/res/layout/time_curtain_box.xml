@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv"
+    android:layout_width="fill_parent"
+      android:layout_height="65.0dip"
+    android:background="@drawable/tool_box_fragment_bg_selector"
+    android:orientation="vertical" >
+ <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+     <ImageView
+         android:id="@+id/C_img"
+         android:layout_width="38dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="5dp"
+          android:layout_marginLeft="5dp"
+         android:layout_weight="1"
+         android:src="@drawable/icon_curtain_on" />
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/dev_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:gravity="center_vertical|left"
+             android:text="Large Text"
+             android:textColor="#000000"
+             android:textSize="20dp" />
+
+         <TextView
+             android:id="@+id/cValue"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:text="TextView" />
+
+     </LinearLayout>
+
+<ImageView
+    android:id="@+id/curtain_on_btn"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+     android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:src="@drawable/on" />
+
+<ImageView
+    android:id="@+id/curtain_off_btn"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+     android:layout_marginTop="10dp"
+     android:layout_weight="1"
+    android:src="@drawable/off" />
+
+<ImageView
+    android:id="@+id/curtain_stop_btn"
+    android:layout_width="50dp"
+    android:layout_height="40dp"
+     android:layout_marginTop="10dp"
+     android:layout_weight="1"
+    android:src="@drawable/stop" />
+
+ </LinearLayout>
+</LinearLayout>

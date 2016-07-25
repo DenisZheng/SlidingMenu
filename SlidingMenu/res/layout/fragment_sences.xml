@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/enter_page_bottom_bg"
+    android:orientation="vertical" >
+
+    <com.baoyz.swipemenulistview.SwipeMenuListView
+        android:id="@+id/senceslist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

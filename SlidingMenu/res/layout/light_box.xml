@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line_light"
+    android:layout_width="fill_parent"
+     android:layout_height="65.0dip"
+    android:background="@drawable/tool_box_fragment_bg_selector"
+    android:gravity="center_vertical" >
+
+<ImageView
+        android:id="@+id/light_img"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+         android:layout_marginLeft="3dip"
+        android:src="@drawable/icon_light_off" />
+
+    <TextView
+        android:id="@+id/light_Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Large Text"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/light_on_btn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="3dip"
+       
+        android:layout_marginBottom="3dip"
+        android:src="@drawable/on" />
+
+    <ImageView
+        android:id="@+id/light_off_btn"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+         android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:src="@drawable/off" /> 
+
+</LinearLayout>

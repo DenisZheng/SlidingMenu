@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dlb"
+    android:layout_width="fill_parent"
+     android:layout_height="65.0dip"
+    android:background="@drawable/tool_box_fragment_bg_selector"
+    android:orientation="vertical" >
+
+ <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_margin="5dp" >
+
+     <ImageView
+         android:id="@+id/IIcon"
+         android:layout_marginTop="10dp"
+         android:layout_width="30dp"
+         android:layout_weight="1"
+         android:layout_height="38dp" />
+
+     <TextView
+         android:id="@+id/txtDevName"
+         android:layout_width="126dp"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_weight="3"
+         android:gravity="left|center"
+         android:height="50dp"
+         android:textColor="@color/black"
+         android:textSize="20dp"
+          />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:layout_gravity="fill_horizontal"
+      android:layout_weight="0.2"
+      android:orientation="horizontal" >
+
+<CheckBox
+    android:id="@+id/selected"
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:background="@drawable/check_selector"
+    android:button="@null"
+    android:focusable="false" />
+
+    </LinearLayout>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="match_parent"
+         android:layout_weight="0"
+         android:orientation="horizontal" >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal" >
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" >
+
+                 <TextView
+                     android:id="@+id/friend_id"
+                     android:layout_width="10dp"
+                     android:layout_height="wrap_content"
+                     android:maxLines="2"
+                     android:textColor="@android:color/transparent" />
+             </LinearLayout>
+         </LinearLayout>
+     </LinearLayout>
+
+</LinearLayout>
+
+</LinearLayout>

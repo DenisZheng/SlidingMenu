@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- <color name="text_white_shadow_color">#ff5a9487</color> -->
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="tools_box_bg">#ff333332</color>
+    <color name="text_white_shadow_color">#ff5a9487</color>
+    <color name="left_text_color">#888888</color>
+    <color name="gray">#797776</color>
+    <color name="green">#60B700</color>
+    <color name="blue">#43B0FC</color>
+    <color name="eair_item_press">#7baaaaaa</color>
+    <color name="line_box_bg">#E4E5E4</color>
+    <color name="eair_title_blue_normal">#ff007aff</color>
+    <color name="eair_title_blue_press">#ff007aff</color>
+    <color name="eair_text_gray">#ff8f8d8b</color>
+    <color name="eair_text_black">#ff333333</color>
+    <color name="air_on">#3cb371</color>
+    <color name="air_off">#959595</color>
+    <color name="air_cold">#0040f7</color>
+    <color name="air_hot">#fe0000</color>
+    <color name="air_dehu">#fe8900</color>
+    <color name="air_fan">#3cb371</color>
+    <color name="air_fix">#3cb371</color>
+    <color name="air_scan">#959595</color>
+    <color name="air_slow">#3cb371</color>
+    <color name="air_center">#87cefa</color>
+    <color name="air_strong">#0040f7</color>
+
+</resources>

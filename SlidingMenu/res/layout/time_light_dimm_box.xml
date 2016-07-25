@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+     android:layout_height="65.0dip"
+    android:background="@drawable/tool_box_fragment_bg_selector"
+    android:gravity="center" >
+<ImageView
+        android:id="@+id/light_img"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/icon_light_on" />
+    <TextView
+        android:id="@+id/dev_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Large Text"
+                android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+
+    <SeekBar
+        android:id="@+id/light_dimm_bar"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:max="100"
+        android:maxHeight="12px"
+        android:minHeight="12px"
+        android:paddingLeft="18px"
+        android:paddingRight="18px"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/drag_ball" />
+
+</LinearLayout>

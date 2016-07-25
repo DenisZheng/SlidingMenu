@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+  <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="55dip"
+    android:gravity="center_vertical"
+    android:padding="0.0px" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/comm_title_bg" />
+
+    <TextView
+        style="@style/A1_Font"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:paddingLeft="96.0dip"
+        android:paddingRight="96.0dip"
+         android:textSize="25dp"
+        android:singleLine="true"
+        android:text="@string/backup_title" />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dip"
+        android:layout_centerVertical="true"
+        android:background="@drawable/back_selector"
+        android:gravity="center"
+        android:includeFontPadding="false" />
+
+</RelativeLayout>
+
+  <LinearLayout
+      android:id="@+id/btndatasdown"
+      android:layout_width="match_parent"
+      android:layout_height="65.0dip"
+      android:background="@drawable/tool_box_fragment_bg_selector"
+      android:orientation="horizontal" >
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:src="@drawable/backups_page_recover_icon" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:gravity="center_vertical"
+          android:text="恢复"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@color/black" />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/btndatasup"
+      android:layout_width="match_parent"
+      android:layout_height="65.0dip"
+      android:background="@drawable/tool_box_fragment_bg_selector"
+      android:orientation="horizontal" >
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_marginLeft="10dp"
+          android:src="@drawable/backups_page_uploading_icon" />
+<TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginLeft="10dp"
+          android:gravity="center_vertical"
+          android:text="上传"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:textColor="@color/black" />
+
+  </LinearLayout>
+
+  <LinearLayout
+       android:layout_width="match_parent"
+      android:layout_height="65.0dip"
+      android:orientation="horizontal" >
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="4"
+      android:orientation="vertical" >
+  </LinearLayout>
+</LinearLayout>

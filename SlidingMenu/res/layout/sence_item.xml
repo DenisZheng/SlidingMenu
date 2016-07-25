@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/alb"
+        android:layout_width="fill_parent"
+        android:layout_height="65.0dip"
+        android:background="@drawable/tool_box_fragment_bg_selector"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/sences_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/txtSencesName"
+            android:layout_alignParentLeft="true"
+            android:contentDescription="@string/empty"
+            android:src="@drawable/general_dining_icon" />
+
+        <TextView
+            android:id="@+id/txtSencesName"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:height="50dp"
+            android:text="客厅场景1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/settingitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSencesName"
+        android:background="#fffeee"
+        android:minHeight="50dp"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radonoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rdon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="开     "
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdoff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="关     "
+                    android:textColor="@color/black" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rdcold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="制冷 "
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdheat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="制热"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rddehu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="除湿"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdfan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="送风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radfan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rdlow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="微风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdcenter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="中风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdstrong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="强风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioGroup
+                android:id="@+id/radfix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rdscan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="扫风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/rdfix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="定风"
+                    android:textColor="@color/black" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <SeekBar
+                android:id="@+id/seekbar_self"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:max="16"
+                android:progress="0"
+                android:progressDrawable="@drawable/bg_bar"
+                android:thumb="@drawable/thumb_bar" />
+
+            <TextView
+                android:id="@+id/tv_self"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="24"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="℃"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/upsence"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/alert_btn_selector"
+                android:text="保存"
+                android:textColor="@color/title_btn_text_selector"
+                android:textSize="16.0sp" />
+
+            <View
+                android:layout_width="1.0px"
+                android:layout_height="fill_parent"
+                android:background="#ff9a9e9d" />
+
+            <Button
+                android:id="@+id/calsence"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/alert_btn_selector"
+                android:text="取消"
+                android:textColor="@color/title_btn_text_selector"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

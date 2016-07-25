@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="spingarr_fen">
+     <item>60分</item>  
+     <item>59分</item> 
+     <item>48分</item>  
+      <item>47分</item>  
+     <item>46分</item> 
+     <item>45分</item> 
+       <item>44分</item>  
+     <item>43分</item> 
+     <item>42分</item>  
+      <item>41分</item>  
+     <item>40分</item> 
+     <item>39分</item> 
+     <item>38分</item> 
+       <item>37分</item>  
+     <item>36分</item> 
+     <item>35分</item>  
+      <item>34分</item>  
+     <item>33分</item> 
+     <item>32分</item> 
+      <item>30分</item> 
+     <item>29分</item> 
+     <item>28分</item> 
+       <item>27分</item>  
+     <item>26分</item> 
+     <item>25分</item>  
+      <item>24分</item>  
+     <item>23分</item> 
+     <item>22分</item> 
+    <item>21分</item> 
+     <item>20分</item>  
+    <item>19分</item> 
+     <item>18分</item>  
+    <item>17分</item>  
+    <item>16分</item>  
+    <item>15分</item> 
+     <item>14分</item>  
+    <item>13分</item> 
+     <item>12分</item>  
+    <item>11分</item> 
+     <item>10分</item>  
+    <item>9分</item> 
+     <item>8分</item>  
+    <item>7分</item> 
+     <item>6分</item>  
+    <item>5分</item> 
+     <item>4分</item>  
+    <item>3分</item> 
+     <item>2分</item>  
+    <item>1分</item> 
+    </string-array>
+</resources>

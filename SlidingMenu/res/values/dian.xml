@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name="spingarr_dian">
+     <item>24点</item>  
+    <item>23点</item> 
+     <item>22点</item>  
+    <item>21点</item> 
+     <item>20点</item>  
+    <item>19点</item> 
+     <item>18点</item>  
+    <item>17点</item>  
+    <item>16点</item>  
+    <item>15点</item> 
+     <item>14点</item>  
+    <item>13点</item> 
+     <item>12点</item>  
+    <item>11点</item> 
+     <item>10点</item>  
+    <item>9点</item> 
+     <item>8点</item>  
+    <item>7点</item> 
+     <item>6点</item>  
+    <item>5点</item> 
+     <item>4点</item>  
+    <item>3点</item> 
+     <item>2点</item>  
+    <item>1点</item> 
+    </string-array>
+</resources>

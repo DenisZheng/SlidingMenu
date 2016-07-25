@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActionbarsherlockLib/ActionbarsherlockLib.iml" filepath="$PROJECT_DIR$/ActionbarsherlockLib/ActionbarsherlockLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu.iml" filepath="$PROJECT_DIR$/SlidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenu/SlidingMenu-SlidingMenu.iml" filepath="$PROJECT_DIR$/SlidingMenu/SlidingMenu-SlidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" filepath="$PROJECT_DIR$/SlidingMenuLib/SlidingMenuLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressfragment/progressfragment.iml" filepath="$PROJECT_DIR$/progressfragment/progressfragment.iml" />
+    </modules>
+  </component>
+</project>
